@@ -4,7 +4,7 @@
 - docker-compose up -d
 
 ### Acesse a pasta dos plugins
-- cd wordpress/wpc-content/plugins
+- cd wordpress/wp-content/plugins
 
 ### clone o plugin do Melhor Envio
 - git clone git@bitbucket.org:melhor-envio/plugin-woocommerce.git
