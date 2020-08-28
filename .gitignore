@@ -2,3 +2,6 @@
 /wordpress/wp-config.php
 /wordpress/wp-content/plugins/plugin-woocommerce
 /wordpress/wp-content/uploads
+
+
+!/db_data/.keep
