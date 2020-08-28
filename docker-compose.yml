@@ -11,14 +11,14 @@ services:
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
     ports:
-    - 3306:3306
+      - 3308:3306
 
   wordpress:
     depends_on:
       - db
     image: wordpress:latest
     volumes:
-      - ./wp-content:/var/www/html/wp-content
+      - ./wordpress:/var/www/html
     ports:
       - "8000:80"
     restart: always

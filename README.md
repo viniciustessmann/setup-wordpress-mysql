@@ -1,1 +1,2 @@
-# setup-wordpress-mysql
+# Instalação
+- docker-compose up -d
